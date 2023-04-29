@@ -1,5 +1,5 @@
 import { FC } from "react";
-import Link from "./Link";
+import Link from "../components/UI/Link";
 
 const Footer: FC = ({}) => {
   return (
