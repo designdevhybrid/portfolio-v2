@@ -15,7 +15,7 @@ export default function Home() {
       </MotionWrapper>
 
       <div className="description">
-        <MotionWrapper delay={3.5}>
+        <MotionWrapper delay={3}>
           <p className="mb-1">📱 Designer of usable interfaces.</p>
         </MotionWrapper>
 
@@ -23,7 +23,7 @@ export default function Home() {
           <p className="mb-1">💻 Developer of full-stack applications.</p>
         </MotionWrapper>
 
-        <MotionWrapper delay={4.5}>
+        <MotionWrapper delay={5}>
           <p className="mb-1">🧱 Maintainer of scalable design systems.</p>
         </MotionWrapper>
       </div>
