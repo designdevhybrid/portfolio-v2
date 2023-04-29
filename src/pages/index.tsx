@@ -23,9 +23,11 @@ export default function Home() {
           <br /> who...
         </p>
         <div className="bg-white py-2 px-3 mt-2 rounded-md">
-          <Marquee className="bg-white text-black rounded-md">
-            I can be a React component, multiple React components, or just some
-            text.
+          <Marquee className="bg-white text-black rounded-md text-lg">
+            &nbsp; Designs usable interfaces – Builds interactive applications –
+            Maintains scalabale design systems – Builds Figma Plugins – Teaches
+            code to design students – Helps puppies find homes – Is just trying
+            to his best –
           </Marquee>
         </div>
       </div>
