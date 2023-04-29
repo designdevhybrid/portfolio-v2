@@ -34,12 +34,12 @@ const Hero: FC<HeroProps> = ({}) => {
         <p className="text-lg my-3">who...</p>
       </Transition>
       <Transition delay={4.2}>
-        <div className="bg-white py-2 px-3 mt-2 rounded-md">
-          <Marquee className="bg-white text-black rounded-md text-lg">
+        <div className="bg-[#27292E] py-2 px-3 my-2 rounded-md">
+          <Marquee className=" text-white rounded-md text-lg">
             &nbsp; Designs usable interfaces – Builds interactive applications –
             Maintains scalabale design systems – Builds Figma plugins – Teaches
             code to design students – Helps puppies find homes – Is just trying
-            to his best –
+            to do his best –
           </Marquee>
         </div>
       </Transition>
