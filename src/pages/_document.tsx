@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link rel="stylesheet" href="https://use.typekit.net/odi5tgm.css" />
       </Head>
-      <body className="bg-[#17191E] min-h-full text-white">
+      <body className="bg-[#17191E] min-h-full text-white flex justify-center">
         <Main />
         <NextScript />
       </body>

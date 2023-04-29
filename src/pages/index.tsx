@@ -1,40 +1,34 @@
 import Footer from "@/components/Footer";
 import TypeIt from "typeit-react";
+import Marquee from "react-fast-marquee";
+import { Camera } from "react-feather";
 
 export default function Home() {
   return (
-    <main>
-      <div className="flex flex-col min-h-screen px-10 pt-10 font-lores font-thin">
-        <TypeIt
-          className="text-xl"
-          options={{ speed: 50 }}
-          getBeforeInit={(instance) => {
-            instance
-              .type("Hi, I'm Abhishke")
-              .pause(750)
-              .delete(2)
-              .pause(500)
-              .type("ek!")
-              .pause(500)
-              .break()
-              .break()
-              .pause(500)
-              .type(
-                'A <span style="color:cyan">product designer</span> and frontend developer  based in NYC'
-              )
-              .pause(500)
-              .break()
-              .break()
-              .type(
-                "If you want me to stop taking and just look at my work, click the link below"
-              );
-
-            // Remember to return it!
-            return instance;
-          }}
-        />
+    <main className="w-full max-w-2xl">
+      <div className="flex flex-col min-h-screen px-8 pt-8 font-lores font-thin">
+        <h3 className="text-xl">Abhishek Kalia</h3>
+        <p className="mt-10 text-lg leading-loose">
+          A{" "}
+          <span className="border-2 p-1 mx-1 rounded-md">
+            {" "}
+            product designer
+          </span>{" "}
+          <br /> and
+          <span className="border-2 p-1 mx-1 rounded-md">
+            frontend developer
+          </span>
+          <br /> based in{" "}
+          <span className="border-2 p-1 mx-1 rounded-md">New York City</span>{" "}
+          <br /> who...
+        </p>
+        <div className="bg-white py-2 px-3 mt-2 rounded-md">
+          <Marquee className="bg-white text-black rounded-md">
+            I can be a React component, multiple React components, or just some
+            text.
+          </Marquee>
+        </div>
       </div>
-      <Footer />
     </main>
   );
 }
