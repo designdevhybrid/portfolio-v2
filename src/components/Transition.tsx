@@ -9,7 +9,7 @@ interface TransitionProps {
 const Transition: FC<TransitionProps> = ({ children, delay }) => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: -100 }}
+      initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{
         type: "spring",
