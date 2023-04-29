@@ -7,10 +7,7 @@ interface LinkProps {
 
 const Link: FC<LinkProps> = ({ text, href }) => {
   return (
-    <a
-      className="border-white border-2 p-3 hover:bg-white hover:text-[#17191E] transition-all"
-      href={href}
-    >
+    <a className=" pr-3 py-3" href={href}>
       {text} ↗
     </a>
   );

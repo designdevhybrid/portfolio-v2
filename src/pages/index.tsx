@@ -19,7 +19,9 @@ export default function Home() {
               .break()
               .break()
               .pause(500)
-              .type("A product designer and frontend developer  based in NYC")
+              .type(
+                'A <span style="color:cyan">product designer</span> and frontend developer  based in NYC'
+              )
               .pause(500)
               .break()
               .break()
