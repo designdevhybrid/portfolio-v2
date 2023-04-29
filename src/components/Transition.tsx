@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { FC } from "react";
 
 interface TransitionProps {
-  children: JSX.Element;
+  children: JSX.Element[] | JSX.Element;
   delay?: number;
 }
 
