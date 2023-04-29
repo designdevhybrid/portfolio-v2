@@ -10,7 +10,7 @@ export default function Home() {
       </MotionWrapper>
       <MotionWrapper delay={2}>
         <div className="hello mb-10 text-2xl">
-          <h3>I'm Abhishek</h3>
+          <h3>I&apos;m Abhishek</h3>
         </div>
       </MotionWrapper>
 
