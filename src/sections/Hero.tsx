@@ -30,19 +30,22 @@ const Hero: FC<HeroProps> = ({}) => {
           <span className="border-2 p-1 mx-1 rounded-md">New York City</span>{" "}
         </p>
       </Transition>
-      <Transition delay={3.4}>
-        <p className="text-lg my-3">who...</p>
-      </Transition>
-      <Transition delay={4.2}>
-        <div className="bg-[#27292E] py-2 px-3 my-2 rounded-md">
-          <Marquee className=" text-white rounded-md text-lg">
-            &nbsp; Designs usable interfaces – Builds interactive applications –
-            Maintains scalabale design systems – Builds Figma plugins – Teaches
-            code to design students – Helps puppies find homes – Is just trying
-            to do his best –
-          </Marquee>
-        </div>
-      </Transition>
+
+      <div className="flex">
+        <Transition delay={3.4}>
+          <p className="text-lg mt-3">who...</p>
+        </Transition>
+        <Transition delay={4.2}>
+          <div className="bg-[#27292E] py-2 px-3 ml-2 rounded-md w-72">
+            <Marquee className=" text-white rounded-md text-lg" pauseOnHover>
+              &nbsp; Designs usable interfaces – Builds interactive applications
+              – Maintains scalabale design systems – Builds Figma plugins –
+              Teaches code to design students – Helps puppies find homes – Is
+              just trying to do his best –
+            </Marquee>
+          </div>
+        </Transition>
+      </div>
     </div>
   );
 };
